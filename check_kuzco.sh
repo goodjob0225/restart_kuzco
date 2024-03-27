@@ -1,5 +1,5 @@
 #!/bin/bash
-workers=29#根据自己gpu能力，更改此数值
+workers=1#根据自己gpu能力，更改此数值
 if pgrep -x "kuzco-runtime" > /dev/null
 then
    top -b -n 1|grep --count 'kuzco'
